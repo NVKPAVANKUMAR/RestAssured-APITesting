@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="pojo.utilities.TestListener"/>
+        <listener class-name="pojo.utilities.AnnotationTransformer"/>
+    </listeners>
+
+    <test name="API Test">
+        <classes>
+            <class name="testCases.GetBooking"/>
+            <class name="testCases.CreateBooking"/>
+            <class name="testCases.DeleteBooking"/>
+            <class name="testCases.UpdateBooking"/>
+            <class name="testCases.PartialUpdateBooking"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
