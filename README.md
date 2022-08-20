@@ -1,7 +1,5 @@
 # Selenium API Testing Framework
 
-![Selenium API Testing Framework](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/readmeResources/JavaRestAssuredAPITesting.gif)
-
 Don't forget to give this project a ⭐
 <div align="center">
 
